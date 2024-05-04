@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "RPGProductivity (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "RPGProductivity (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
