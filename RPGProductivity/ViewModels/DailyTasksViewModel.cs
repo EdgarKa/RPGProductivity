@@ -10,14 +10,14 @@ namespace RPGProductivity.ViewModels;
 
 public partial class DailyTasksViewModel : ObservableRecipient, INavigationAware
 {
-    private readonly ISampleDataService _sampleDataService;
+    private readonly IDailyTasksService _sampleDataService;
 
     [ObservableProperty]
-    private SampleOrder? selected;
+    private TaskToDo? selected;
 
-    public ObservableCollection<SampleOrder> SampleItems { get; private set; } = new ObservableCollection<SampleOrder>();
+    public ObservableCollection<TaskToDo> SampleItems { get; private set; } = new ObservableCollection<TaskToDo>();
 
-    public DailyTasksViewModel(ISampleDataService sampleDataService)
+    public DailyTasksViewModel(IDailyTasksService sampleDataService)
     {
         _sampleDataService = sampleDataService;
     }

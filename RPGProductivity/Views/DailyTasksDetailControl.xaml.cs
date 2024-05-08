@@ -7,13 +7,13 @@ namespace RPGProductivity.Views;
 
 public sealed partial class DailyTasksDetailControl : UserControl
 {
-    public SampleOrder? ListDetailsMenuItem
+    public TaskToDo? ListDetailsMenuItem
     {
-        get => GetValue(ListDetailsMenuItemProperty) as SampleOrder;
+        get => GetValue(ListDetailsMenuItemProperty) as TaskToDo;
         set => SetValue(ListDetailsMenuItemProperty, value);
     }
 
-    public static readonly DependencyProperty ListDetailsMenuItemProperty = DependencyProperty.Register("ListDetailsMenuItem", typeof(SampleOrder), typeof(DailyTasksDetailControl), new PropertyMetadata(null, OnListDetailsMenuItemPropertyChanged));
+    public static readonly DependencyProperty ListDetailsMenuItemProperty = DependencyProperty.Register("ListDetailsMenuItem", typeof(TaskToDo), typeof(DailyTasksDetailControl), new PropertyMetadata(null, OnListDetailsMenuItemPropertyChanged));
 
     public DailyTasksDetailControl()
     {
