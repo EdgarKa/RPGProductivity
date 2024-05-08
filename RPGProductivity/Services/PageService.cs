@@ -15,6 +15,7 @@ public class PageService : IPageService
     public PageService()
     {
         Configure<DailyTasksViewModel, DailyTasksPage>();
+        Configure<SettingsViewModel, SettingsPage>();
     }
 
     public Type GetPageType(string key)
