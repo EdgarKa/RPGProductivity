@@ -31,7 +31,7 @@
                     <TextBlock Text="{x:Bind Title}" Style="{StaticResource ListTitleStyle}" />
                     <TextBlock Text="{x:Bind Description}" Style="{StaticResource ListSubTitleStyle}" />
                 </StackPanel>
-                <Button Grid.Column="2" BorderThickness="0" Foreground="Gray" Padding="5" Click="{Binding VM:DeleteCommand}" >
+                <Button Grid.Column="2" BorderThickness="0" Foreground="Gray" Padding="5" >
                     <FontIcon Glyph="&#xE711;" FontSize="8" />
                 </Button>
             </Grid>
