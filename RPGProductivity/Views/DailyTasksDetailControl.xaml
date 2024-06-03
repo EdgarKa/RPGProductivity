@@ -10,7 +10,7 @@
         HorizontalAlignment="Stretch"
         VerticalScrollMode="Enabled"
         IsTabStop="True">
-        <StackPanel HorizontalAlignment="Left">
+        <StackPanel HorizontalAlignment="Left" Margin="15,0,0,0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
                 <FontIcon
                     HorizontalAlignment="Center"

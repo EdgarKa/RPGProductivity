@@ -10,7 +10,7 @@ public sealed partial class DailyTasksPage : Page
 {
     public DailyTasksViewModel ViewModel
     {
-        get;
+        get; set;
     }
 
     public DailyTasksPage()
